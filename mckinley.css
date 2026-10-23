@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(2, 72, 113);
+}
+img{
+    display: block;
+    background-color: rgb(225, 232, 238);
+}
+a{
+    color: rgb(2, 72, 113);
+    text-decoration: none;
+}
+.serif{
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+}
+.box{
+    position: relative;
+    width: 1270px;
+    margin: 0px auto;
+}
+.topbar{
+    height: 50px;
+    background-color: rgb(2, 72, 113);
+    text-align: center;
+    font-size: 14px;
+    color: rgb(215, 228, 236);
+}
+.topbar p{
+    padding-top: 17px;
+}
+.nav-wrap{
+    height: 108px;
+    background-color: rgb(244, 247, 248);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 1270px;
+    height: 108px;
+    margin: 0px auto;
+}
+.logo{
+    width: 210px;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    margin-right: 30px;
+    font-size: 15px;
+}
+.phone{
+    margin-left: auto;
+    margin-right: 40px;
+    font-size: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 234px;
+    height: 58px;
+    background-color: rgb(2, 72, 113);
+    font-size: 15px;
+    color: white;
+}
+.btn.white{
+    width: 180px;
+    height: 58px;
+    background-color: white;
+    color: rgb(2, 72, 113);
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 753px;
+    background-color: rgb(2, 72, 113);
+}
+.hero-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 864px;
+    height: 753px;
+    background-color: rgb(228, 235, 239);
+}
+.hero-img{
+    position: absolute;
+    top: 56px;
+    left: 676px;
+    width: 595px;
+    height: 751px;
+    box-shadow: 0px 24px 40px rgb(150, 180, 205);
+}
+.hero-text{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 600px;
+}
+.h-title{
+    font-size: 52px;
+}
+.hero-desc{
+    margin: 28px 0px 40px 0px;
+    font-size: 21px;
+}
+.areas{
+    padding-top: 140px;
+}
+.sec-title{
+    font-size: 38px;
+}
+.sec-desc{
+    width: 600px;
+    margin-top: 28px;
+    font-size: 21px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 333px;
+    height: 376px;
+    padding: 32px;
+    border: 1px solid rgb(236, 240, 243);
+    background-color: white;
+    box-shadow: 0px 18px 30px rgb(205, 218, 228);
+}
+.card i{
+    font-size: 54px;
+    color: rgb(2, 72, 113);
+}
+.card-title{
+    margin-top: 28px;
+    font-size: 20px;
+}
+.card-text{
+    margin-top: 16px;
+    font-size: 17px;
+}
+.more{
+    font-size: 16px;
+}
+.more i{
+    margin-left: 12px;
+    font-size: 14px;
+}
+.personal{
+    position: relative;
+    width: 1270px;
+    height: 678px;
+    margin: 140px auto 0px auto;
+}
+.personal-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1270px;
+    height: 678px;
+}
+.personal-box{
+    position: absolute;
+    top: 188px;
+    left: 849px;
+    width: 326px;
+    height: 394px;
+    padding: 48px;
+    background-color: rgb(2, 72, 113);
+    color: white;
+}
+.personal-title{
+    font-size: 33px;
+    color: white;
+}
+.personal-text{
+    margin: 30px 0px 44px 0px;
+    font-size: 17px;
+}
+.review{
+    position: relative;
+    width: 1270px;
+    height: 480px;
+    margin: 100px auto 0px auto;
+}
+.review-quote{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 1270px;
+    text-align: center;
+}
+.quote-text{
+    width: 880px;
+    margin: 0px auto;
+    font-size: 32px;
+}
+.quote-author{
+    margin-top: 28px;
+    font-size: 14px;
+}
+.arrow-left{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    font-size: 22px;
+    color: rgb(120, 150, 175);
+}
+.arrow-right{
+    position: absolute;
+    top: 0px;
+    left: 1180px;
+    font-size: 340px;
+    color: rgb(80, 130, 170);
+}
+.articles{
+    margin-top: 100px;
+}
+.articles .cards{
+    margin-top: 60px;
+}
+.article{
+    width: 397px;
+    height: 509px;
+    background-color: white;
+    box-shadow: 0px 18px 30px rgb(205, 218, 228);
+}
+.article-img{
+    width: 397px;
+    height: 260px;
+    background-color: rgb(225, 232, 238);
+}
+.article-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 187px;
+    padding: 32px;
+}
+.date{
+    font-size: 14px;
+}
+.article-title{
+    margin-top: 14px;
+    font-size: 20px;
+}
+.cta{
+    height: 545px;
+    margin-top: 160px;
+    background-color: rgb(228, 235, 239);
+    text-align: center;
+}
+.cta-title{
+    padding-top: 150px;
+    font-size: 40px;
+}
+.cta-desc{
+    margin: 22px 0px 38px 0px;
+    font-size: 21px;
+}
+.cta-btn{
+    margin: 0px auto;
+}
+.footer{
+    width: 100%;
+    height: 661px;
+    background-color: rgb(2, 72, 113);
+    color: white;
+}
+.footer-row{
+    display: flex;
+    width: 1270px;
+    margin: 0px auto;
+    padding-top: 110px;
+}
+.f-left{
+    width: 438px;
+}
+.f-logo{
+    font-size: 30px;
+    color: white;
+}
+.f-info{
+    margin-top: 18px;
+    font-size: 17px;
+    color: rgb(190, 210, 224);
+}
+.f-mail{
+    margin-top: 12px;
+    font-size: 17px;
+    color: rgb(150, 200, 235);
+}
+.social{
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+    font-size: 17px;
+    color: rgb(190, 210, 224);
+}
+.social i{
+    margin-right: 12px;
+    font-size: 30px;
+    color: rgb(190, 210, 224);
+}
+.f-right{
+    width: 400px;
+}
+.f-title{
+    font-size: 25px;
+    color: white;
+}
+.f-form{
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+}
+.f-input{
+    width: 380px;
+    height: 54px;
+    padding: 0px 16px;
+    border: none;
+    background-color: rgb(120, 150, 175);
+    font-size: 15px;
+}
+.f-btn{
+    width: 54px;
+    height: 54px;
+    border: none;
+    background-color: rgb(2, 72, 113);
+    font-size: 20px;
+    color: white;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgb(1, 56, 90);
+    font-size: 12px;
+    color: white;
+}
+.bottom p{
+    padding: 14px 24px 0px 24px;
+}
